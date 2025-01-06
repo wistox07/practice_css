@@ -1,0 +1,8 @@
+/*Los elementos bloque pueden usar todas las propidades de box model margin , padding with higth
+Se pueden centrar si tiene un with definido
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*display block*/
+/*display inline*/

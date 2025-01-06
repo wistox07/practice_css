@@ -1,0 +1,70 @@
+/*SOLO ES POSIBLE CENTRAR UN ELEMENTO SI ES BLOCK , SI TIENE WIDTH */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*Capa de contenido*/
+.card{
+    background-color: royalblue;
+    color: white;
+    width: auto;
+    display: block;
+    /*max-width: 300px;
+    min-width: 200px;*/
+    width: 300px;
+    /*min-height: 300px;
+    height: auto;
+    overflow: auto;*/
+    /*padding arriba derecha abajo izquierda*/
+    /*padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    */
+
+    padding: 20px 40px 60px 80px;
+    padding: 20px;
+    padding: 15px 45px; /*15 arriba y abajo 45px a los lados*/
+    border: 5px solid yellow;
+}
+
+.card--one{
+    /*magin auto: funciona solo de menera horizontal para margenes y si es bloack*/
+   /* margin: 50px;*/
+   margin-right: auto;
+   margin-left: auto;
+}
+.card__title{
+    margin-bottom: 15px;
+    margin-top: 15px
+}
+
+.card-paragraph{
+    margin-bottom: 30px;
+}
+
+.main{
+ background-color: steelblue;
+ color: white;
+ border: 0.1px solid transparent;
+}
+.main__title{
+   background-color: red;
+   margin-top: 50px; 
+}
+.footer{
+    margin-top:50px;
+    background-color: slateblue;
+    color: white;
+}
+
+.card{
+    box-sizing: border-box ;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid chocolate;
+}

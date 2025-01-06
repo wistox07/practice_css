@@ -1,0 +1,9 @@
+[value]{
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+}
+
+[value*="introduce el"]{
+    background-color: yellow;
+}

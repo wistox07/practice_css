@@ -1,0 +1,43 @@
+/**{
+    background-color: teal;
+}
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+li{
+    color: slateblue;
+    font-size: 20px;   
+}
+
+.peliculas{
+    color: crimson ;
+}
+
+.series{
+    font-size: 40px;
+}
+
+.favoritas{
+    font-weight: bold;
+    color: rebeccapurple;
+    font-size: 25px;
+}
+
+.espaciado{
+    letter-spacing: 10px;
+}
+
+#spidermanNoWayHome{
+    font-size: 25px;
+    color: tomato;
+    text-decoration: underline;
+}
+
+#temporada3{
+    color: seagreen;
+    font-size: 14px;
+}

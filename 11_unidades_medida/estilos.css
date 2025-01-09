@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*min-height: 1000px;*/
+
+}
+
+.container{
+    padding: 40px;
+    background-color: yellow;
+    /*width: 100vw;
+    height: 100vh;*/
+    width: 300px;
+
+}
+
+.container-child{
+    width: 50%;
+    font-size: 15px;
+}
+
+.title{
+    font-size: 3em;
+}
+
+/* 1rem - por defecto 16px se basa en  html*/
+/* 1em  - se basa el padre contenedor  html u otros , caso ya se defina el tamaño para el elemento lo toma de alli */
+/* en block with es el 100% por defecto , pero no tiene height por lo que al momento de aplicar porcentajes al alto no funciona*/

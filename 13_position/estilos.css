@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    min-height: 500vh;
+}
+
+.container{
+    width: 90%;
+    margin: 40px auto;
+    border: 4px solid;
+}
+
+
+.element{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.static {
+    background-color: tomato;
+}
+
+.relative{
+    background-color: steelblue;
+    border: 4px solid crimson;
+    position: relative;
+    top: -200px;
+    left: 300px;
+
+}
+/*Se posiciona en un ancestro diferente a static caso contrario se posiciona viewport*/
+.absolute{
+    background: teal;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.fixed{
+    background-color: crimson;
+    position: fixed;
+    left: 0;
+    top: 300px;
+}

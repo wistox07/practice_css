@@ -1,0 +1,53 @@
+*{
+    margin:  0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 800px;
+    min-height: 600px;
+    margin: 80px auto;
+    border: 3px solid #000;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: nowrap (defecto) , significa que no se separa , pero en caso sea wrap respeta el contenido definido en element y aplica un salto de elementos en caso se desborde   ;*/
+    /*main axis 
+    justify-content: si hay espacio disponible se puede aplicar flex-start(defecto) , flex-end , center,space-between,space-around,space-evenly
+    /*cross axis
+    align-items: stretch por defecto en caso no tenga height definido, flex-start, flex-end, center, baseline
+    aligh-content se aplica cuando es wrap y aplica al bloque , flex-start , flex-end , space-between,space-around, space-evenly
+    */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.element{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;   
+    height: 100px;
+}
+
+.element1{
+    background-color: crimson;
+}
+
+.element2{
+    background-color: purple;
+}
+
+.element3{
+    background-color: steelblue;
+
+}
